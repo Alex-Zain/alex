@@ -13,19 +13,14 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 os.system('termux-setup-storage')
 os.system('clear')
-logo = '\n\n\x1b[1;92m\n   _      _       _____
+logo = ''''''''' _      _       _____
    / \    | |     | ____| __  __
      / _ \   | |     |  _|   \ \/ /
       / ___ \  | |___  | |___   >  <
       /_/   \_\ |_____| |_____| /_/\_\
 ALEX LADKIYA KA DIL CHURANE WALA INDIAN HECKER
 
-   Author   : Alex Zain
-      Facebook   : https://www.facebook.com/gauthan.rascals 
-         Youtube  : Not availab
-               This tool is free not for sale
-                  If you dream it, you can do it.
- -----------------------------------------'
+   Author   : Alex Zain'
 CorrectUsername = 'Alex'
 loop = 'true'
 while loop == 'true':

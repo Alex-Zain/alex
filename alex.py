@@ -13,14 +13,8 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 os.system('termux-setup-storage')
 os.system('clear')
-logo = ''''''''' _      _       _____
-   / \    | |     | ____| __  __
-     / _ \   | |     |  _|   \ \/ /
-      / ___ \  | |___  | |___   >  <
-      /_/   \_\ |_____| |_____| /_/\_\
-ALEX LADKIYA KA DIL CHURANE WALA INDIAN HECKER
+logo = "\033[1;91m\n\n.########..####..######..##.....##.##.....##\n.##.....##..##..##....##.##.....##.##.....##\n.##.....##..##..##.......##.....##.##.....##\n.########...##...######..#########.##.....##\n.##...##....##........##.##.....##.##.....##\n.##....##...##..##....##.##.....##.##.....##\n.##.....##.####..######..##.....##..#######.        \n\x1b[00m------------------------------------------\n \x1b[92m   Author \x1b[00m: \033[1;91mRishu Khan\n \x1b[92m   FACEBOOK ID \x1b[00m: \x1b[92mhttps://www.facebook.com/Rishu.X.420\033[1;91m\n \x1b[92m WhatsApp\x1b[00m : \033[1;91mNa Duga\n\x1b[00m------------------------------------------"
 
-   Author   : Alex Zain'
 CorrectUsername = 'Alex'
 loop = 'true'
 while loop == 'true':
@@ -80,7 +74,7 @@ def reg2():
     time.sleep(2)
     print ''
     print '\x1b[1;96m '
-    print ' \xe2\x80\xa2 ALEX HEART HACKER \xe2\x80\xa2 '
+    print ' \xe2\x80\xa2 THIS TOOL IS COMPLETELY CODED BY ALEX ZAIN \xe2\x80\xa2 '
     time.sleep(5)
     login()
 
@@ -129,8 +123,8 @@ def menu():
     print '             LOGIN ID : ' + name
     print ''
     print 47 * '-'
-    print ' \x1b[1;91m          ALEX ZAIN AND ATUL BFF'
-    print '         Flart Boy Alex Zain Indian Hacker'
+    print ' \x1b[1;91m          IF YOU DREAM IT'
+    print '         CAN YOU DO IT '
     print '\x1b[1;97m'
     print 47 * '-'
     print ''
@@ -149,7 +143,7 @@ def menu_option():
         os.system('xdg-open https://www.facebook.com/gauthan.rascals')
         menu()
     elif select == '3':
-        os.system('xdg-open https://facebook.com/groups/2729441620704528/')
+        os.system('xdg-open https://www.facebook.com/gauthan.rascals')
         menu()
     else:
         print ''
